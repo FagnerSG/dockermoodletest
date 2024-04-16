@@ -1,0 +1,5 @@
+FROM postgres:latest
+
+ENV POSTGRES_USER=moodle
+ENV POSTGRES_PASSWORD=senha
+ENV POSTGRES_DB=moodle
